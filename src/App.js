@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Col, Row, Container } from "react-bootstrap";
+import CardProfile from "./components/CardProfile";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <Col>
+          <CardProfile />
+        </Col>
+        <Col className="infoStyle">
+          <p> - DAVIDE PAPA</p>
+          <p> - JUNIOR FULLSTACK</p>
+        </Col>
+      </Container>
+      <Container className="my-5">
+        <Row>
+          <h1 className="titleStyle">Personal Projects:</h1>
+        </Row>
+        <Projects />
+      </Container>
+    </>
   );
 }
 

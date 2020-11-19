@@ -1,0 +1,15 @@
+.imgStyle {
+    margin-top   : 30%;
+    border-radius: 10px;
+
+}
+
+.cardStyle {
+    width      : 150%;
+    margin-top : 90%;
+    position   : relative;
+    right      : 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size  : 20px;
+    font-weight: 400;
+}
