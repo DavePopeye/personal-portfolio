@@ -14,12 +14,12 @@ export default class CardProfile extends Component {
           <Col>
             <Card className="cardStyle shadow">
               <Card.Body>
-                Hello world, my name is Davide, I'm a junior fullstack
-                developer, only 8 months before i never touched any program
-                things what so ever, i dedicated all my life in music and
-                production, but now i fund a new begging in my life as web
-                development, Strive School was just the starting line of this
-                life journey, i'm so excited about
+                Hello world, my name is Davide!
+                <br /> I am a former music producer, only 8 months ago I had no
+                idea what programming meant. Now I found a new start in life in
+                web programming as a junior full-stack developer. I'm really
+                excited about this new part of my life and focus on learning
+                more and more about web development every day.
               </Card.Body>
             </Card>
           </Col>
