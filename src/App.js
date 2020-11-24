@@ -11,8 +11,8 @@ function App() {
           <CardProfile />
         </Col>
         <Col className="infoStyle">
-          <p> - DAVIDE PAPA</p>
-          <p> - JUNIOR FULLSTACK</p>
+          <p>DAVIDE PAPA</p>
+          <p>JUNIOR FULLSTACK</p>
         </Col>
       </Container>
       <Container className="my-5">
